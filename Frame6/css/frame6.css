@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v626_156 {
+  width: 375px;
+  height: 119px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v626_184 {
+  width: 375px;
+  height: 119px;
+  background: url("../images/v626_184.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v626_185 {
+  width: 375px;
+  height: 119px;
+  background: rgba(229,229,229,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v626_186 {
+  width: 136px;
+  height: 33px;
+  background: url("../images/v626_186.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 23px;
+  overflow: hidden;
+}
+.v626_187 {
+  width: 129px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  font-family: Roboto;
+  font-weight: Black;
+  font-size: 6px;
+  opacity: 1;
+  text-align: center;
+}
+.v626_188 {
+  width: 136px;
+  color: url("../images/v626_188.png");
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  font-family: Roboto;
+  font-weight: Black;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v626_189 {
+  width: 334px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 71px;
+  left: 19px;
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 6px;
+  opacity: 1;
+  text-align: right;
+}
+.v626_190 {
+  width: 131px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 69px;
+  left: 25px;
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 6px;
+  opacity: 1;
+  text-align: left;
+}
+.v626_191 {
+  width: 23px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 69px;
+  left: 83px;
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 6px;
+  opacity: 1;
+  text-align: center;
+}
+.v626_192 {
+  width: 46px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 69px;
+  left: 116px;
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 6px;
+  opacity: 1;
+  text-align: center;
+}
