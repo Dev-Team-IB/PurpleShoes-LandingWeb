@@ -3,71 +3,95 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=640, initial-scale=1.0">
-    <link href="../normalize.css" rel="stylesheet" />
+    
+    <meta name="viewport" content="width=device-width,initial-scale=,minimum-scale=0.55,maximum-scale=1.0">
+    <link href="normalize.css" rel="stylesheet" />
     <title>Purple Shoes</title>
     <style>
-        * {
-            background-color: #E0CAEA;
+        *{
         }
-
+        body{
+            background-color: #E0CAEA;
+            
+            display: flex;
+            justify-content: center;
+        }
+        center{
+            position: relative;
+            
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+        }
+        
         .main {
             display: flex;
             justify-content: center;
             background-image: url("./images/main.png");
             background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 100% auto;
             position: relative;
-            width: 828px;
-            height: 7610px;
+            max-width: 555px;
+            width: 100%;
+            height: 5099px;
             margin: 0 auto;
+
         }
 
         .btnImg {
-            position: absolute;
+            position: relative;
             z-index: 5;
             top: 10px;
             left: 10px;
         }
 
         .btn1 {
+            
             background-color: transparent;
             position: absolute;
-            left: 145px;
-            top: 205px;
+            
+            left: 100px;
+            top: 140px;
 
         }
 
         .btn2 {
             background-color: transparent;
-            position: absolute;
-            left: 100px;
-            top: 4920px;
+            position: relative;
+            left: -130px;
+            top: 3300px;
         }
 
         .btn3 {
             background-color: transparent;
-            position: absolute;
-            left: 400px;
-            top: 5880px;
+            position: relative;
+            left: 250px;
+            top: 3875px;
         }
 
         .btn4 {
             background-color: transparent;
-            position: absolute;
+            position: relative;
             left: 50%;
             transform: translateX(-50%);
-            top: 7000px;
+            top: 4550px;
         }
     </style>
 </head>
 
 <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
-    <div class="main">
-        <a href="https://smartstore.naver.com/purpleshoes?NaPm=ct%3Dkvdwpqn9%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3D%7Chk%3Dcf711f2c70daf3e5a3ec45a2936adf81c75f05c2"><img class="btn1" src="./images/buttons/btn1.png" /></a>
-        <img class="btn2" src="./images/buttons/btn2.png" />
-        <img class="btn3" src="./images/buttons/btn3.png" />
-        <img class="btn4" src="./images/buttons/btn4.png" />
-    </div>
+    <div class="container">
+        <div class="main">
+            <a href="https://smartstore.naver.com/purpleshoes?NaPm=ct%3Dkvdwpqn9%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3D%7Chk%3Dcf711f2c70daf3e5a3ec45a2936adf81c75f05c2"><img class="btn1" src="./images/buttons/btn1.png" /></a>
+            <img class="btn2" src="./images/buttons/btn2.png" />
+            <img class="btn3" src="./images/buttons/btn3.png" />
+            <img class="btn4" src="./images/buttons/btn4.png" />
+        </div>
+</div>
 </body>
 
 </html>
